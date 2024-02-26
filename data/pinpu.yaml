@@ -1,0 +1,12 @@
+
+path: /datashare01/pinpu/54_all_old/  # dataset root dir
+train: train_old.txt  # train images (relative to 'path') 118287 images
+val: val_old.txt  # val images (relative to 'path') 5000 images
+test: val_old.txt  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+
+# Classes
+names:
+  0: 4   #无人机信号 
+  1: 0   #跳频
+  2: 4p1  #4p无人机的通信信号 第一台
+  3: 4p2  #4p无人机的通信信号 第二台

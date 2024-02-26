@@ -1,0 +1,19 @@
+path: /datashare01/pinpu/ # dataset root dir
+train: 
+ # - ./54_all/abs_train.txt
+ - ./54_zicai/train_zicai.txt
+val: 
+ # - ./54_all/abs_val.txt
+ # - ./54_zicai/train_zicai.txt
+ - ./54_zicai/val_zicai.txt
+test: 
+ # - ./54_all/abs_val.txt
+ - ./54_zicai/val_zicai.txt
+
+# Classes
+names:
+ 0: 4
+ 1: 4p_fhss
+ 2: 4p1
+ 3: 4p2
+ 4: 4_fhss
